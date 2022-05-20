@@ -5,6 +5,14 @@ const greeting = document.querySelector("#greeting");
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
+// 100vh
+function setScreenSize() {
+	const vh = window.innerHeight * 0.01;
+
+	document.documentElement.style.setProperty("--vh", `${vh}px`);
+}
+setScreenSize();
+
 // Log In function
 const logIn = {
 	onLoginSubmit: function (event) {

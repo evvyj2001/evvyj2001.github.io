@@ -3,7 +3,7 @@
 #wrap {
 	width: 100%;
 	max-width: 1920px;
-	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
 	text-align: center;
 	position: relative;
 	z-index: 1;
