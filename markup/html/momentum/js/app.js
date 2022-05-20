@@ -123,23 +123,23 @@ quoteChange();
 setInterval(quoteChange, 7000);
 
 // Background
-function bgChange() {
-    const images = ['0.jpg', '1.jpg', '2.jpg', '3.jpg'];
+// function bgChange() {
+//     const images = ['0.jpg', '1.jpg', '2.jpg', '3.jpg'];
 
-    const chosenImage = images[Math.floor(Math.random() * images.length)];
-    const wrap = document.querySelector('#wrap');
+//     const chosenImage = images[Math.floor(Math.random() * images.length)];
+//     const wrap = document.querySelector('#wrap');
 
-    // bg로 넣어버리면 아래 제거
-    // const bgImage = document.createElement("img");
-    // bgImage.classList.add("bg");
-    // bgImage.src = `img/${chosenImage}`;
-    // document.body.prepend(bgImage);
+//     // bg로 넣어버리면 아래 제거
+//     // const bgImage = document.createElement("img");
+//     // bgImage.classList.add("bg");
+//     // bgImage.src = `img/${chosenImage}`;
+//     // document.body.prepend(bgImage);
 
-    wrap.style.background = `url(img/${chosenImage}) 50% no-repeat`;
-    wrap.style.backgroundSize = 'cover';
-}
-bgChange();
-setInterval(bgChange, 7000);
+//     wrap.style.background = `url(img/${chosenImage}) 50% no-repeat`;
+//     wrap.style.backgroundSize = 'cover';
+// }
+// bgChange();
+// setInterval(bgChange, 7000);
 
 // Mode Change
 const modeBtn = document.querySelector('#modeSelect');
