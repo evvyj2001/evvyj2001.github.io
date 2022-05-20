@@ -254,8 +254,10 @@ const onDbclickTodo = (e, todoId) => {
 
 const clearCompletedTodos = () => {
     const newTodos = getActiveTodos();
+    todos.push(newTodos);
     setTodos(newTodos);
     paintTodos();
+    saveTodos(newTodos);
 };
 
 const onClickShowTodosType = e => {
