@@ -44,11 +44,12 @@ const getActiveTodos = () => {
 
 const setLeftItems = () => {
 	const leftTodos = getActiveTodos();
-	if (leftTodos.length == 0) {
-		leftItemsElem.innerHTML = `🔔 등록된 내용이 없습니다.`;
-	} else {
-		leftItemsElem.innerHTML = `🔔 할 일이 <span>${leftTodos.length}개</span> 있습니다.`;
-	}
+	// if (leftTodos.length == 0) {
+	// 	leftItemsElem.innerHTML = `🔔 할 일이 <span>0개</span> 있습니다.`;
+	// } else {
+	// 	leftItemsElem.innerHTML = `🔔 할 일이 <span>${leftTodos.length}개</span> 있습니다.`;
+	// }
+	leftItemsElem.innerHTML = `🔔 할 일이 <span>${leftTodos.length}개</span> 있습니다.`;
 };
 
 const completeAll = () => {
