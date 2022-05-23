@@ -72,11 +72,16 @@
 #daynight,
 #clock,
 #loginForm,
-#greeting {
+#greeting,
+.main-date {
     font-family: 'yg-jalnan';
 }
 .hidden {
     display: none;
+}
+.main-date {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
 }
 .time {
     display: flex;
@@ -213,6 +218,8 @@
 }
 .todo-list .todo-item .delBtn {
     width: 1.6rem;
+    height: fit-content;
+    line-height: initial;
 }
 .todo-bottom {
     display: flex;
@@ -237,6 +244,13 @@
     border-color: #17ffaf !important;
     color: #17ffaf !important;
     opacity: 1;
+}
+.info {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    color: #999;
 }
 
 #weather {
