@@ -27,7 +27,7 @@
     content: '';
     display: block;
     position: absolute;
-    top: -30vh;
+    top: -60vh;
     left: -50vw;
     width: 175vw;
     background: linear-gradient(
@@ -52,7 +52,7 @@
         height: 0;
     }
     to {
-        height: 175vh;
+        height: 200vh;
     }
 }
 .container {

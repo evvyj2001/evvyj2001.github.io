@@ -178,7 +178,8 @@ const appendTodos = text => {
     setId(newId);
     const date = new Date();
     const year = date.getFullYear();
-    const month = String(date.getMonth()).padStart(2, '0');
+    const getMonth = String(date.getMonth() + 1);
+    const month = getMonth.padStart(2, '0');
     const day = String(date.getDate()).padStart(2, '0');
     const hours = String(date.getHours()).padStart(2, '0');
     const minutes = String(date.getMinutes()).padStart(2, '0');
@@ -186,6 +187,7 @@ const appendTodos = text => {
 
     const newTodos = getAllTodos().concat({ id: newId, isCompleted: false, content: text, date: now });
 
+    console.log(month);
     todos.push(newTodos);
     setTodos(newTodos);
     setLeftItems();
