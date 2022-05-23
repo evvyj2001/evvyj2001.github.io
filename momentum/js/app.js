@@ -13,6 +13,10 @@ function setScreenSize() {
 }
 setScreenSize();
 
+window.addEventListener('resize', () => {
+    setScreenSize();
+});
+
 // Log In function
 const logIn = {
     onLoginSubmit(event) {
