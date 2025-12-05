@@ -1,22 +1,20 @@
 # 포트폴리오
 
--   URL: <https://evvyj2001.github.io/>
-
-#### 웹퍼블리셔 성유진의 포트폴리오입니다, 현재까지의 프로젝트 경험을 상세하게 확인할 수 있습니다.
-
-#### vue3.js 기반으로 작업되었으며, 반응형으로 제작되었습니다.
+-   https://evvyj2001.github.io/
+-   웹퍼블리셔 성유진의 포트폴리오입니다, 현재까지의 프로젝트 경험을 상세하게 확인할 수 있습니다.
+-   vue3.js 기반으로 작업되었으며, 반응형으로 제작되었습니다.
 
 ####
 
 ## 0. 이력서
 
--   URL: <https://evvyj2001.github.io/resume.html>
+-   https://evvyj2001.github.io/resume.html
 
 ####
 
 ## 1. Momentum
 
--   URL: <https://evvyj2001.github.io/momentum/>
+-   https://evvyj2001.github.io/momentum/
 
 ####
 
@@ -53,5 +51,3 @@
 ### 명언 loop 기능
 
 ### 반응형 페이지
-
----
